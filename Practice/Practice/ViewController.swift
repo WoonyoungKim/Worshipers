@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let exView = UIView(frame: self.view.frame)
+        exView.backgroundColor = UIColor.black
+        self.view.addSubview(exView)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
